@@ -9,5 +9,6 @@ Made in late 2018.
 Same idea as using IDA.
 
 1. Set the string referenced to the subroutine
-2. Set the *call* number of the sub_XXXXX you need.
+2. Set the *call* number of the sub_XXXXX you need (within the .text margin).
 3. Output -> Done.
+

@@ -23,12 +23,12 @@ void mainDumper() {
 	freopen("CONOUT$", "w", stdout);
 	freopen("CONIN$", "r", stdin);
 	SetConsoleTitle(TEXT("\Local\ [PROCESS] -> RobloxPlayerBeta.exe (DUMP)"));
-	Console::Output(str_format("%s: %p\n", "text", Memory::getSegmentAddr(".text")), OUTPUTTYPE::_ADD);
-	Console::Output(str_format("%s: %p\n", "data", Memory::getSegmentAddr(".data")), OUTPUTTYPE::_ADD);
-	Console::Output(str_format("%s: %p\n", "rdata", Memory::getSegmentAddr(".rdata")), OUTPUTTYPE::_ADD);
-	Console::Output(str_format("%s: %p\n", "vmp0", Memory::getSegmentAddr(".vmp0")), OUTPUTTYPE::_ADD);
-	Console::Output(str_format("%s: %p\n", "vmp1", Memory::getSegmentAddr(".vmp1")), OUTPUTTYPE::_ADD);
-	Console::Output(str_format("%s: %p\n", "zero", Memory::getSegmentAddr(".zero")), OUTPUTTYPE::_ADD);
+	std::cout << str_format("%s: %p\n", "text", Memory::getSegmentAddr(".text"));
+	std::cout << str_format("%s: %p\n", "data", Memory::getSegmentAddr(".data"));
+	std::cout << str_format("%s: %p\n", "rdata", Memory::getSegmentAddr(".rdata");
+	std::cout << str_format("%s: %p\n", "vmp0", Memory::getSegmentAddr(".vmp0"));
+	std::cout << str_format("%s: %p\n", "vmp1", Memory::getSegmentAddr(".vmp1"));
+	std::cout << str_format("%s: %p\n", "zero", Memory::getSegmentAddr(".zero"));
 
 	DUMPER isdst = uDUMP::GetStringSubLoc("isdst");
 	DUMPER cyclic = uDUMP::GetStringSubLoc("tables cannot be cyclic");

@@ -1,5 +1,5 @@
-# Basic-Dumper
-Brought to you by Ryle &amp; Sloppey.
+# basic-dumper
+Brought to you by volio &amp; sloppey.
 
 Made in late 2018.
 - **Not updated since July.**
